@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form to Google Sheets</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; }
+        input[type="text"] { width: 100%; max-width: 300px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 10px 15px; background-color: #4285f4; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #3367d6; }
+    </style>
+</head>
+<body>
+
+    <h2>Submit Data to Google Sheets</h2>
+
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+            onload="if(submitted) { alert('Data submitted successfully!'); window.location.reload(); }">
+    </iframe>
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSey9LJ_Sox9OaQ68d3NkIbKOP22GahAGBNsT5whcQqVpM8iGg/formResponse" 
+          method="POST" 
+          target="hidden_iframe" 
+          onsubmit="submitted=true;">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="entry.205096224" required>
+        </div>
+
+        <div class="form-group">
+            <label for="roll">Roll Number</label>
+            <input type="text" id="roll" name="entry.1943840442" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Addresss</label>
+            <input type="text" id="address" name="entry.1524458585" required>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
