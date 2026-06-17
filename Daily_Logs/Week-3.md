@@ -93,4 +93,6 @@
 #### 📁 Files & Assets Created
 - `google_sheet.html` — The frontend file containing the form structure, inline CSS styling, and submission handling scripts.
 - **Google Form (Backend Handler)** — Configured to passively receive incoming `POST` requests.
+link- https://docs.google.com/forms/d/e/1FAIpQLSey9LJ_Sox9OaQ68d3NkIbKOP22GahAGBNsT5whcQqVpM8iGg/viewform?usp=header
 - **Google Sheet (Database)** — Linked to the form to capture and structure all mapped input data.
+link- https://docs.google.com/spreadsheets/d/1R5YrLAylg-sIwPQ3gqetaLpbTemMlXkRSD7oacnirao/edit?usp=sharing
