@@ -31,13 +31,16 @@
 
 #### 📸 Visual Evidence
 
-**1. Serial Monitor Output (Calibrated Data):**<br>
-<img src="assets/week2_temp_output.jpeg" width="400" alt="Serial Monitor Output showing temperature and humidity">
-
-<br><br>
-
-**2. Hardware Wiring Setup:**<br>
-<img src="assets/week2_setup.jpeg" width="500" alt="Arduino Uno and DHT22 Wiring">
+<table>
+  <tr>
+    <td align="center"><b>1. Serial Monitor Output (Calibrated Data)</b></td>
+    <td align="center"><b>2. Hardware Wiring Setup</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/week2_temp_output.jpeg" width="400" alt="Serial Monitor Output showing temperature and humidity"></td>
+    <td align="center"><img src="assets/week2_setup.jpeg" width="400" alt="Arduino Uno and DHT22 Wiring"></td>
+  </tr>
+</table>
 
 #### 🧠 Key Learnings
 - **Pin Identification:** Successfully navigated the small labeling on the Arduino board to correctly map the 5V, GND, and Digital pins.
