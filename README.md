@@ -35,10 +35,10 @@
 ---
 
 ## Key Tools & Technologies
-- **Languages:** Python, C++, HTML/CSS, JavaScript
-- **Hardware:** SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor, Raspberry Pi
-- **Software/Libraries:** Arduino IDE, Matplotlib, PySerial, OpenCV, NumPy, YOLOv8, ROS
-- **Architecture:** Serverless Web Architecture (Google Forms/Sheets API), macOS (M1) / UTM VM
+- **Languages:** Python, C++, HTML, CSS, JavaScript
+- **Hardware:** SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor
+- **Software/Libraries:** Arduino IDE, Adafruit DHT Sensor Library, Adafruit Unified Sensor Library, PySerial, Matplotlib, NumPy, OpenSSH Server, NetworkManager (`nmcli`), Python `http.server`, VS Code, Python virtual environment (`.venv`)
+- **Architecture/Platforms:** Serverless web workflow with Google Forms and Google Sheets, macOS (M1), Ubuntu 26.04 LTS on UTM VM
 
 ---
 
