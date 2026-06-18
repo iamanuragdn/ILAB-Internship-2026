@@ -32,13 +32,18 @@
 #### 📸 Visual Evidence
 *(Note: Save your newly uploaded screenshots to the `assets` folder with the names below)*
 
-**1. Numerical Terminal Output (Angle, Distance, Quality):**<br>
-<img src="assets/lidar_terminal_output.jpeg" width="600" alt="Terminal output showing numerical data of LiDAR points">
+#### 📸 Visual Evidence
 
-<br>
-
-**2. Live 2D Polar Plot Visualization:**<br>
-<img src="assets/lidar_2d_plot.jpeg" width="600" alt="Matplotlib polar plot showing the live 2D room scan">
+<table>
+  <tr>
+    <td align="center"><b>1. Numerical Terminal Output</b></td>
+    <td align="center"><b>2. Live 2D Polar Plot Visualization</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Daily_Logs/assets/week3_numerical_data_LiDAR.png" width="400" alt="Terminal output showing numerical data of LiDAR points"></td>
+    <td align="center"><img src="/Daily_Logs/assets/week3_matplotlib_2d_LiDAR.png" width="400" alt="Matplotlib polar plot showing the live 2D room scan"></td>
+  </tr>
+</table>
 
 #### 📊 Results
 | Metric | Value |
@@ -85,6 +90,21 @@
 3. **Endpoint Interception:** Extracted the specific `formResponse` URL from the Google Form to handle incoming `POST` requests.
 4. **Data Mapping:** Mapped the custom HTML `<input>` fields to the Google Form's database columns by extracting and assigning the correct `entry.ID` values to the `name` attributes.
 5. **Redirection Bypass:** Implemented an `iframe` workaround to intercept the Google Form submission response, preventing default page redirection.
+
+#### 📸 Visual Evidence
+
+<table>
+  <tr>
+    <td align="center"><b>1. Custom HTML Frontend</b></td>
+    <td align="center"><b>2. Hidden Google Form (Backend)</b></td>
+    <td align="center"><b>3. Live Google Sheet (Database)</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/week3_html_frontend.png" width="260" alt="Custom HTML Form"></td>
+    <td align="center"><img src="assets/week3_google_form.png" width="260" alt="Google Form Backend"></td>
+    <td align="center"><img src="assets/week3_google_sheet.png" width="260" alt="Google Sheet Database"></td>
+  </tr>
+</table>
 
 #### 📊 Results
 - **Seamless Data Flow:** Successfully submitted user data from a standalone, custom HTML page directly into a designated Google Sheet in real-time.
