@@ -30,12 +30,13 @@
    - Calculated the offset (True Value - Sensor Reading = Offset) and applied it within the Arduino code (e.g., `tempOffset = -0.5`, `humidOffset = +2.0`) to yield calibrated results.
 
 #### 📸 Visual Evidence
-*(Note: Placed screenshots in the `assets` folder of the repository)*
 
-**1. Serial Monitor Output (Calibrated Data):**
+**1. Serial Monitor Output (Calibrated Data):**<br>
 <img src="assets/week2_temp_output.jpeg" width="400" alt="Serial Monitor Output showing temperature and humidity">
 
-**2. Hardware Wiring Setup:**
+<br><br>
+
+**2. Hardware Wiring Setup:**<br>
 <img src="assets/week2_setup.jpeg" width="500" alt="Arduino Uno and DHT22 Wiring">
 
 #### 🧠 Key Learnings

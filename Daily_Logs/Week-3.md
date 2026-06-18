@@ -29,6 +29,17 @@
    - Created a strict `.venv` isolated environment inside the LiDAR project folder.
    - Installed dependencies: `pyserial`, `matplotlib`, `numpy`.
 
+#### 📸 Visual Evidence
+*(Note: Save your newly uploaded screenshots to the `assets` folder with the names below)*
+
+**1. Numerical Terminal Output (Angle, Distance, Quality):**<br>
+<img src="assets/lidar_terminal_output.jpeg" width="600" alt="Terminal output showing numerical data of LiDAR points">
+
+<br>
+
+**2. Live 2D Polar Plot Visualization:**<br>
+<img src="assets/lidar_2d_plot.jpeg" width="600" alt="Matplotlib polar plot showing the live 2D room scan">
+
 #### 📊 Results
 | Metric | Value |
 |--------|-------|
