@@ -53,4 +53,4 @@
 | **Incorrect Readings (Drift)** | Factory calibration inaccuracies over time | Calculated the difference against a true baseline and added an offset variable to the code logic to mathematically correct the output. |
 
 #### 📁 Assets
-- Arduino Sketch (`.ino` format) containing sensor initialization, read loop, error handling, and calibration logic.
+- temp_humidity.ino (`.ino` format) containing sensor initialization, read loop, error handling, and calibration logic.
