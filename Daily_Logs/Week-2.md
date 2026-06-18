@@ -29,6 +29,15 @@
    - Established a "True Baseline" using a trusted household thermometer for temperature and the "Salt Test" (75% humidity in a sealed environment) for humidity.
    - Calculated the offset (True Value - Sensor Reading = Offset) and applied it within the Arduino code (e.g., `tempOffset = -0.5`, `humidOffset = +2.0`) to yield calibrated results.
 
+#### 📸 Visual Evidence
+*(Note: Placed screenshots in the `assets` folder of the repository)*
+
+**1. Serial Monitor Output (Calibrated Data):**
+<img src="assets/week2_temp_output.jpeg" width="400" alt="Serial Monitor Output showing temperature and humidity">
+
+**2. Hardware Wiring Setup:**
+<img src="assets/week2_setup.jpeg" width="500" alt="Arduino Uno and DHT22 Wiring">
+
 #### 🧠 Key Learnings
 - **Pin Identification:** Successfully navigated the small labeling on the Arduino board to correctly map the 5V, GND, and Digital pins.
 - **Code Structure:** Understood the fundamental architecture of an Arduino sketch:
