@@ -1,4 +1,4 @@
-# NIT Agartala ILAB — Summer Internship 2026
+# NIT Agartala AI-HCI-LAB — Summer Internship 2026
 
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Duration](https://img.shields.io/badge/duration-7%20weeks-blue)
@@ -6,7 +6,7 @@
 
 **Intern:** Anurag Debnath  
 **Supervisor:** Dr. Suman Deb  
-**Institution:** NIT Agartala — CSE Department ILAB  
+**Institution:** NIT Agartala — CSE Department AI HCI Lab  
 **Duration:** June 1, 2026 – July 20, 2026 (7 Weeks)  
 **Program:** Summer Project and Skill Program 2026  
 
