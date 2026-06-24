@@ -50,7 +50,6 @@
 | `Internal data stream error` | OpenCV defaulted to unstable GStreamer backend | Initialized capture with `cv2.VideoCapture(0, cv2.CAP_V4L2)` |
 
 #### 📁 Files Created / Modified
-- `final_object-ident.py` — Fully refactored MobileNet SSD object detection script with relative pathing and live camera capture.
-( path: [final_object-ident.py](../Raspberry/Object%20Detection/final_object-ident.py) )
+- [final_object-ident.py](../Raspberry/Object%20Detection/final_object-ident.py) — Fully refactored MobileNet SSD object detection script with relative pathing and live camera capture.
 
 ---
