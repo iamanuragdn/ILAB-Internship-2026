@@ -48,11 +48,11 @@
 
 ## Quick Log
 
-## Quick Log
-
 | Week | Focus | Highlights |
 |------|-------|------------|
-| Week 1 | Web Tech & Networking | Ubuntu VM static IP setup + SSH and Python HTTP server deployment |
-| Week 2 | Embedded Systems | Arduino Uno + DHT22 integration & software calibration |
-| Week 3 | Robotics & Web Arch | RPLIDAR C1 live 2D mapping + Serverless HTML to Google Sheets |
-| Week 4 | Intelligent Robotics | Raspberry Pi OpenCV integration for live object detection using an EMEET SmartCam S600 and the SSD MobileNet v3 model, alongside script refactoring for path portability |
+| Week&nbsp;1 | Web Tech & Networking | Ubuntu VM static IP setup + SSH and Python HTTP server deployment |
+| Week&nbsp;2 | Embedded Systems | Arduino Uno + DHT22 integration & software calibration |
+| Week&nbsp;3 | Robotics & Web Arch | RPLIDAR C1 live 2D mapping + Serverless HTML to Google Sheets |
+| Week&nbsp;4 | Intelligent Robotics | Raspberry Pi OpenCV integration for live object detection using an EMEET SmartCam S600 and the SSD MobileNet v3 model, alongside script refactoring for path portability |
+
+---
