@@ -1,6 +1,6 @@
 # Internship Weekly Log: Week 3
 
-**Developer:** Anurag Debnath & Abilash Ghosh /
+**Developer:** Anurag Debnath & Abilash Ghosh
 **Date:** June 18, 2026  
 
 ---
