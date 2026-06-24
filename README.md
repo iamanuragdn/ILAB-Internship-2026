@@ -41,10 +41,9 @@
 
 ## Key Tools & Technologies
 - **Languages:** Python, C++, HTML, CSS, JavaScript
-- **Hardware:** SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor
-- **Software/Libraries:** Arduino IDE, Adafruit DHT Sensor Library, Adafruit Unified Sensor Library, PySerial, Matplotlib, NumPy, OpenSSH Server, NetworkManager (`nmcli`), Python `http.server`, VS Code, Python virtual environment (`.venv`)
-- **Architecture/Platforms:** Serverless web workflow with Google Forms and Google Sheets, macOS (M1), Ubuntu 26.04 LTS on UTM VM
-
+- **Hardware:** SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor, Raspberry Pi (Arm64)[cite: 3], EMEET SmartCam S600[cite: 3]
+- **Software/Libraries:** Arduino IDE, Adafruit DHT Sensor Library, Adafruit Unified Sensor Library, PySerial, Matplotlib, NumPy, OpenSSH Server, NetworkManager (`nmcli`), Python `http.server`, VS Code, Python virtual environment (`.venv`), OpenCV[cite: 3]
+- **Architecture/Platforms:** Serverless web workflow with Google Forms and Google Sheets, macOS (M1), Ubuntu 26.04 LTS on UTM VM, Raspberry Pi OS (Debian Bookworm)[cite: 3]
 ---
 
 ## Quick Log
