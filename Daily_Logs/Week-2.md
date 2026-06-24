@@ -1,6 +1,6 @@
 # Internship Weekly Log: Week 2
 
-**Developer:** Anurag Debnath  
+**Developer:** Anurag Debnath & Abhilash Ghosh
 **Date:** June 12, 2026
 
 ---
