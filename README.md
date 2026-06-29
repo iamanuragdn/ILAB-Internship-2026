@@ -4,7 +4,7 @@
 ![Duration](https://img.shields.io/badge/duration-7%20weeks-blue)
 ![Program](https://img.shields.io/badge/program-Summer%20Project%20%26%20Skill%202026-lightgrey)
 
-**Intern:** Anurag Debnath and Abhilash Ghosh 
+**Intern:** Anurag Debnath and Abhilash Ghosh \
 **Supervisor:** Dr. Suman Deb  
 **Institution:** NIT Agartala — CSE Department AI HCI Lab  
 **Duration:** June 1, 2026 – July 20, 2026 (7 Weeks)  
@@ -22,35 +22,55 @@
 | Module 4 | IoT Dashboard & Autonomous Control | ⬜ Upcoming |
 | Module 5 | Capstone Group Project | ⬜ Upcoming |
 
+#### Repository Navigation
+ 
+This repository is organized by topic. Detailed weekly documentation — including observations, implementations, and visual references — is maintained in [`Daily_Logs/`](./Daily_Logs/). Topic-specific source code is located in the corresponding folders like -`Arduino/`, `LiDAR/`, `Raspberry/`...
+
 ---
 
 ## Repository Structure
-
-- `Arduino/`
-  - `sketch_jun12b/temp_humidity/` — C++ scripts for Arduino Uno.
-- `Daily_Logs/` [Week-1.md, Week-2.md, Week-3.md, Week-4.md] — Comprehensive weekly logs.
-  - `assets/` — Visual evidence and hardware wiring photos.
-- `LiDAR/` — Python scripts for SLAMTEC RPLIDAR C1 connection and 2D visualization.
-  - `other codes/` 
-- `Raspberry/` 
-  - `Object Detection/` — OpenCV and Object Detection implementation.
-- `google_sheet.html` — Custom serverless HTML frontend integrated with Google Forms/Sheets.
-- `.gitattributes`, `.gitignore`, `LICENSE`, `README.md` — Core repository configuration files.
-
+ 
+```
+AI-HCI-LAB-Internship-2026/
+│
+├── Arduino/
+│   └── sketch_jun12b/temp_humidity/   ← C++ sketches for Arduino Uno + DHT22
+│
+├── Daily_Logs/                        ← 📖 Main internship journal (start here)
+│   ├── Week-1.md
+│   ├── Week-2.md
+│   ├── Week-3.md
+│   ├── Week-4.md
+│   └── assets/                        ← Photos, wiring diagrams, screenshots
+│
+├── LiDAR/                             ← Python scripts for RPLIDAR C1
+│   └── other codes/
+│
+├── Raspberry/
+│   └── Object Detection/              ← OpenCV object detection on Raspberry Pi
+│
+├── google_sheet.html                  ← Serverless HTML + Google Forms/Sheets frontend
+└── README.md
+```
 ---
 
-## Key Tools & Technologies
-- **Languages:** Python, C++, HTML, CSS, JavaScript
-- **Hardware:** SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor, Raspberry Pi (Arm64), EMEET SmartCam S600
-- **Software/Libraries:** Arduino IDE, Adafruit DHT Sensor Library, Adafruit Unified Sensor Library, PySerial, Matplotlib, NumPy, OpenSSH Server, NetworkManager (`nmcli`), Python `http.server`, VS Code, Python virtual environment (`.venv`), OpenCV
-- **Architecture/Platforms:** Serverless web workflow with Google Forms and Google Sheets, macOS (M1), Ubuntu 26.04 LTS on UTM VM, Raspberry Pi OS (Debian Bookworm)
----
-
-## Quick Log
+## Weekly Progress & Quick Log
 
 | Week | Focus | Highlights |
 |------|-------|------------|
-| Week&nbsp;1 | Web Tech & Networking | Ubuntu VM static IP setup + SSH and Python HTTP server deployment |
-| Week&nbsp;2 | Embedded Systems | Arduino Uno + DHT22 integration & software calibration |
-| Week&nbsp;3 | Robotics & Web Arch | RPLIDAR C1 live 2D mapping + Serverless HTML to Google Sheets |
-| Week&nbsp;4 | Intelligent Robotics | LiDAR obstacle navigation interface & Raspberry Pi real-time object detection |
+| [Week&nbsp;1](./Daily_Logs/Week-1.md) | Web Tech & Networking | Ubuntu VM static IP setup + SSH and Python HTTP server deployment |
+| [Week&nbsp;2](./Daily_Logs/Week-2.md) | Embedded Systems | Arduino Uno + DHT22 integration & software calibration |
+| [Week&nbsp;3](./Daily_Logs/Week-3.md) | Robotics & Web Arch | RPLIDAR C1 live 2D mapping + Serverless HTML to Google Sheets |
+| [Week&nbsp;4](./Daily_Logs/Week-4.md) | Intelligent Robotics | LiDAR obstacle navigation interface & Raspberry Pi real-time object detection |
+---
+
+## Key Tools & Technologies
+ 
+| Category | Details |
+|----------|---------|
+| **Languages** | Python, C++, HTML, CSS, JavaScript |
+| **Hardware** | SLAMTEC RPLIDAR C1, Arduino Uno, DHT22 Sensor, Raspberry Pi (Arm64), EMEET SmartCam S600 |
+| **Libraries** | PySerial, Matplotlib, NumPy, OpenCV, Adafruit DHT, Adafruit Unified Sensor |
+| **Platforms** | macOS (M1), Ubuntu 26.04 LTS (UTM VM), Raspberry Pi OS (Debian Bookworm) |
+| **Tools** | Arduino IDE, VS Code, OpenSSH Server, NetworkManager (`nmcli`), Python `http.server` |
+| **Architecture** | Serverless web workflow with Google Forms + Sheets |
