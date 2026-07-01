@@ -34,7 +34,8 @@ This repository is organized by topic. Detailed weekly documentation — includi
 AI-HCI-LAB-Internship-2026/
 │
 ├── Arduino/
-│   └── sketch_jun12b/temp_humidity/   ← C++ sketches for Arduino Uno + DHT22
+│   ├── temp_humidity                  ← Temperature & humidity monitoring via DHT22 sensor
+|   └── led_control_python_serial      ← Real-time Arduino LED control via Python serial
 │
 ├── Daily_Logs/                        ← 📖 Main internship journal (start here)
 │   ├── Week-1.md
